@@ -90,9 +90,9 @@ use codex_utils_path_uri::PathUri;
 const UNIFIED_EXEC_ENV: [(&str, &str); 10] = [
     ("NO_COLOR", "1"),
     ("TERM", "dumb"),
-    ("LANG", "C.UTF-8"),
-    ("LC_CTYPE", "C.UTF-8"),
-    ("LC_ALL", "C.UTF-8"),
+    ("LANG", "en_US.UTF-8"),
+    ("LC_CTYPE", "en_US.UTF-8"),
+    ("LC_ALL", "en_US.UTF-8"),
     ("COLORTERM", ""),
     ("PAGER", "cat"),
     ("GIT_PAGER", "cat"),
