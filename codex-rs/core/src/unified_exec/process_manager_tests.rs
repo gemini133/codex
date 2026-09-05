@@ -12,9 +12,9 @@ fn unified_exec_env_injects_defaults() {
     let expected = HashMap::from([
         ("NO_COLOR".to_string(), "1".to_string()),
         ("TERM".to_string(), "dumb".to_string()),
-        ("LANG".to_string(), "C.UTF-8".to_string()),
-        ("LC_CTYPE".to_string(), "C.UTF-8".to_string()),
-        ("LC_ALL".to_string(), "C.UTF-8".to_string()),
+        ("LANG".to_string(), "en_US.UTF-8".to_string()),
+        ("LC_CTYPE".to_string(), "en_US.UTF-8".to_string()),
+        ("LC_ALL".to_string(), "en_US.UTF-8".to_string()),
         ("COLORTERM".to_string(), String::new()),
         ("PAGER".to_string(), "cat".to_string()),
         ("GIT_PAGER".to_string(), "cat".to_string()),
